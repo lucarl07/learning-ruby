@@ -1,7 +1,7 @@
 ### EXERCÍCIO 01: ###
 # Crie um programa que receba o nome e a idade de uma pessoa e no final exiba estes dois dados em uma única frase.
 
-puts "==== MEU PROGRAMA ===="
+puts "==== CALCULE SEU SALÁRIO! ===="
 
 print "Digite o seu nome: "
 name = gets.chomp
