@@ -35,7 +35,7 @@ unless fruta == 'banana'
     else
       puts 'Que fruta sem gosto 🤢'
     end
-  elsif fruta == 'mamão'
+  elsif fruta == 'melão'
     puts 'EU NÃO COMO ISSO NEM ME AMEAÇANDO!'
   else
     puts 'Meh, vou comer uma vai...'
