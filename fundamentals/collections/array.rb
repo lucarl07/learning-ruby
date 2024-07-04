@@ -13,24 +13,14 @@ puts estados;
 
 estados.push('Bahia', 'Pernambuco', 'Minas Gerais')
 
-lista = ""
-for estado in estados
-  lista += "#{estado.chomp}, "
-end
-
-puts lista.chomp(', ')
+puts "#{estados}"
 
 # Array.insert() -> Insere um ou mais itens a partir de um índice específico, sendo este o primeiro parâmetro:
 
 estados.insert(2, 'Ceará', 'Paraíba')
 estados.insert(3, 'Maranhão')
 
-lista = ""
-for estado in estados
-  lista += "#{estado.chomp}, "
-end
-
-puts lista.chomp(', ')
+puts "#{estados}"
 
 # Array[x..y] -> Retorna os itens da array que estão no intervalo em específico.
 # Pode até ter índices negativos para contagem inversa, mas funciona somente em ordem crescente.
@@ -61,32 +51,14 @@ puts estados.include?('Alagoas')
 # Array.shift -> Remove o primeiro item da array:
 
 estados.shift
-lista = ""
-
-for estado in estados
-  lista += "#{estado.chomp}, "
-end
-
-puts lista.chomp(', ')
+puts "#{estados}"
 
 # Array.pop -> Remove o item final da array:
 
 estados.pop
-lista = ""
-
-for estado in estados
-  lista += "#{estado.chomp}, "
-end
-
-puts lista.chomp(', ')
+puts "#{estados}"
 
 # Array.delete_at() -> Remove um item de acordo com seu índice:
 
 estados.delete_at(4)
-lista = ""
-
-for estado in estados
-  lista += "#{estado.chomp}, "
-end
-
-puts lista.chomp(', ')
+puts "#{estados}"
